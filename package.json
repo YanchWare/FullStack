@@ -1,0 +1,11 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Full stack template for a web applications using Relay, React, and Semantic-UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angelo Agatino Nicolosi",
+  "license": "MIT"
+}
