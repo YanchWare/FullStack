@@ -7,5 +7,29 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Angelo Agatino Nicolosi",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanchWare/FullStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YanchWare/FullStack/issues"
+  },
+  "homepage": "https://github.com/YanchWare/FullStack#readme",
+  "dependencies": {
+    "graphql": "^0.4.12",
+    "graphql-relay": "^0.3.5",
+    "jquery": "^2.1.4",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-relay": "^0.4.0",
+    "semantic-ui": "^2.1.6"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-react": "^6.1.2",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
