@@ -8,7 +8,7 @@ class Title extends React.Component
       <h2 className="ui header">
         <i className="announcement icon"></i>
         <div className="content">
-          Hello {this.props.viewer.name} your id is {this.props.viewer.id}
+          Hello {this.props.viewer.widgets.edges[0].node.name}
         </div>
       </h2>
     );
@@ -19,8 +19,14 @@ export default Relay.createContainer(Title, {
   fragments: {
     viewer: () => Relay.QL`
       fragment on User {
-        id,
-        name
+        widgets(first: 10) {
+          edges {
+            node {
+              id,
+              name,
+            },
+          },
+        },
       }
     `,
   },

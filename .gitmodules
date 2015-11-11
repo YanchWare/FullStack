@@ -1,0 +1,3 @@
+[submodule "relay-starter-kit"]
+	path = relay-starter-kit
+	url = https://github.com/relayjs/relay-starter-kit
